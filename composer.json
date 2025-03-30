@@ -43,7 +43,13 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/"
+            "Tests\\": "tests/",
+            "Webkul\\TimeOff\\": "plugins/webkul/timeoffs/src",
+            "Webkul\\TimeOff\\Database\\Factories\\": "plugins/webkul/timeoffs/database/factories",
+            "Webkul\\Support\\": "plugins/webkul/support/src",
+            "Webkul\\Sales\\": "plugins/webkul/sales/src",
+            "Webkul\\Payment\\": "plugins/webkul/payments/src",
+            "Webkul\\Account\\": "plugins/webkul/accounts/src"
         }
     },
     "scripts": {
